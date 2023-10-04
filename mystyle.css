@@ -1,0 +1,143 @@
+body {
+
+  background-color: #f5f2f0;
+  font-size: 13px;
+  font-family: Calibri;
+}
+
+.reference{
+	text-decoration: none;
+	font-weight: bold;
+	color:#423e47;
+}
+
+
+#container{
+background: #f1e6e0;
+    max-width: 1025px;
+    margin: 0 auto;
+    position: relative;
+}
+.my-bar{
+	text-align: right;
+	/*display:inline-block;*/
+	width:auto;
+	padding: 8px 12px;
+}
+.bar-item{
+	margin: 3px;
+	color: black;
+	text-decoration: none;
+	font-family: 20px arial, sans-serif;
+	text-transform: uppercase;
+	width: 150px;
+	padding: 3px;
+}
+.top-container {
+	 color: #f5f2f0; 
+	 background-color: #423e47; 
+	 min-height: 300px;
+	}
+
+li {
+	list-style-type: none;
+}
+
+.container{
+	letter-spacing: 1px;
+	padding: 20px;
+    align-items: center;
+  /*  justify-content: center;*/
+    height: 100%;
+}
+
+.div-title{
+	margin:auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 1px 30px 1px 30px;
+    letter-spacing: 2px;
+}
+.div-container a{
+	list-style-type: none;
+	text-decoration: none;
+	color: inherit;
+	/*font-weight: bold;*/
+	cursor: pointer;
+}
+.div-container li{
+padding: 10px;
+border-top: #f5f2f0 0.5px solid;
+border-bottom: #f5f2f0 0.5px solid;
+}
+
+.div-container-int{
+	padding: 10px 5px;
+	text-align: center;
+
+}
+.basic-info{
+	padding: 15px;
+	/*display: block;*/
+}
+
+.basic-info li{
+	list-style-type: none;
+	padding: 5px;
+}
+.basic-info p{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+
+.flagcounter{
+	margin:auto;
+		width: 280px;
+		padding: 15px 30px 1px 30px;
+}
+
+.div-container{
+	padding: 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.div-container-about-me-desktop{
+	padding: 15px;
+}
+
+.myimage{
+	width: 300px;
+	max-height: 100%
+}
+
+.structure{
+	padding: 10px;
+	margin: auto;
+}
+
+td {
+	padding: 5px;
+}
+.list-item > li {
+	padding: 15px;
+	/*list-style-type: none;*/
+}
+.biography{
+	text-align: justify;
+	padding: 10px;
+	/*width: 100%;*/
+}
+ul {
+	padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+	.biography{
+		max-width: 300px;
+}
+}
